@@ -1,0 +1,71 @@
+.navCosta{
+    position: fixed;
+    width:100%;
+    background-color: transparent;
+    transition: .3s;
+    z-index:4;
+    top:0;
+    .containerNav{
+        display: flex;
+        justify-content: space-between;
+        width:90%;
+        margin:auto;
+        align-items: center;
+        padding:20px 0px;
+        box-sizing: border-box;
+        transition: .3s;
+        .icon{
+            width:20%;
+            text-align: left;
+            h3{
+                font-size: 26px;
+                font-weight: bold;
+                color: @bgPrimary;
+
+            }
+        }
+        .navSmallOptions{
+            width:60%;
+
+            nav{
+                ul{
+                    li{
+                        padding:10px 20px;
+                        box-sizing: border-box;
+                        display: inline-block;
+                        cursor: pointer;
+                        span{
+                            font-size: 14px;
+                            letter-spacing: 1px;
+
+                        }
+                    }
+                }
+            }
+        }
+        .action{
+            width:20%;
+            button{
+                background-color:  @bgPrimary;
+                border:1px solid @bgPrimary;
+                border-radius: 20px;
+                padding:10px;
+                box-sizing: border-box;
+                width:100%;
+                transition: .3s;
+                span{
+                    font-size: 14px;
+                    color: @bgWhite;
+                }
+            }
+            button:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+.navActive{
+    position: fixed;
+    width:100%;
+    background-color: @bgWhite;
+}

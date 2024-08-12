@@ -1,0 +1,815 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: SF PRO Display, SF Pro Icons, AOS, Helvetica Neue, Helvetica, Arial, sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #6F7E8C;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body button {
+  cursor: pointer;
+}
+.navCosta {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  transition: 0.3s;
+  z-index: 4;
+  top: 0;
+}
+.navCosta .containerNav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.navCosta .containerNav .icon {
+  width: 20%;
+  text-align: left;
+}
+.navCosta .containerNav .icon h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #0A6692;
+}
+.navCosta .containerNav .navSmallOptions {
+  width: 60%;
+}
+.navCosta .containerNav .navSmallOptions nav ul li {
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+}
+.navCosta .containerNav .navSmallOptions nav ul li span {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.navCosta .containerNav .action {
+  width: 20%;
+}
+.navCosta .containerNav .action button {
+  background-color: #0A6692;
+  border: 1px solid #0A6692;
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  transition: 0.3s;
+}
+.navCosta .containerNav .action button span {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.navCosta .containerNav .action button:hover {
+  transform: scale(1.1);
+}
+.navActive {
+  position: fixed;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.app {
+  margin: 0px;
+}
+.app .panel .panelLanding .home .firstHome {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.app .panel .panelLanding .home .firstHome .img {
+  width: 80%;
+  margin: auto;
+}
+.app .panel .panelLanding .home .firstHome .img img {
+  width: 100%;
+}
+.app .panel .panelLanding .home .firstHome .textAndWallpaper {
+  width: 80%;
+  margin: auto;
+}
+.app .panel .panelLanding .home .firstHome .textAndWallpaper .textDesc {
+  text-align: center;
+}
+.app .panel .panelLanding .home .firstHome .textAndWallpaper .textDesc h1 {
+  font-size: 82px;
+  font-weight: 600;
+  color: #1d1d1d;
+  margin: 10px 0px;
+}
+.app .panel .panelLanding .home .firstHome .textAndWallpaper .textDesc h3 {
+  color: #4B4B4E;
+  font-weight: 300;
+  width: 80%;
+  margin: auto;
+}
+.app .panel .panelLanding .home .firstHome .textAndWallpaper .textDesc button {
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.app .panel .panelLanding .home .firstHome .textAndWallpaper .textDesc button:hover {
+  text-decoration: underline;
+}
+.app .panel .panelLanding .home .topProducts {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 60px 0px;
+  box-sizing: border-box;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer {
+  width: 80%;
+  margin: auto;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .title {
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .title h1 {
+  font-size: 48px;
+  color: #1d1d1d;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite {
+  margin-top: 40px;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer .box {
+  width: 49%;
+  background-color: #FFFFFF;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: 0.3s;
+  border: 1px solid #F5F5F7;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer .box .fastDesc {
+  text-align: center;
+  padding: 50px 0px;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer .box .fastDesc .new {
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  color: #0A6692;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer .box .fastDesc .new span {
+  color: #0A6692;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer .box .fastDesc h1 {
+  font-weight: 500;
+  margin: 10px 0px;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer .box .fastDesc span {
+  color: #4B4B4E;
+  font-size: 14px;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer .box .fastDesc .moreInfo {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 50%;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer .box .img {
+  width: 100%;
+  text-align: center;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer .box .img img {
+  width: 50%;
+  margin: auto;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer .box:hover {
+  transform: scale(1.05);
+  border: 1px solid #ccc;
+}
+.app .panel .panelLanding .home .topProducts .topsContainer .divideContainerWhite .divideContainer .Two {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.app .panel .panelLanding .home .whiteProduct {
+  background-color: #FFFFFF;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid #ccc;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer {
+  width: 100%;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .wallpaperImg {
+  width: 40%;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .wallpaperImg img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg {
+  width: 50%;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg h1 {
+  font-size: 52px;
+  color: #0A6692;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .descriptionText {
+  font-size: 16px;
+  color: #4B4B4E;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .options {
+  margin-top: 30px;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .options h3 {
+  font-size: 34px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .options h3 span {
+  font-size: 18px;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .options button {
+  padding: 10px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  width: 50%;
+  border-radius: 20px;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .options .info {
+  background-color: #0A6692;
+  border: 1px solid #0A6692;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .options .info span {
+  color: #FFFFFF;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .options .info:hover {
+  transform: scale(1.1);
+  background-color: #FFFFFF;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .options .info:hover span {
+  color: #0A6692;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .options .comprar {
+  margin-top: 10px;
+  border: none;
+  background-color: #FFFFFF;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .options .comprar span {
+  color: #0A6692;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct .descImg .containerDescImg .options .comprar:hover {
+  transform: scale(1.1);
+  border: 1px solid #0A6692;
+}
+.app .panel .panelLanding .home .whiteProduct .whiteProductContainer .divideProduct.Reverse {
+  flex-direction: row-reverse;
+}
+.app .panel .panelLanding .home .ourExperience {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience {
+  width: 90%;
+  margin: auto;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience .divideExperience {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience .divideExperience .wallpaper {
+  width: 45%;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience .divideExperience .wallpaper img {
+  width: 100%;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience .divideExperience .containerOur {
+  width: 50%;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience .divideExperience .containerOur .desc .title h3 {
+  font-size: 16px;
+  color: #4B4B4E;
+  font-weight: 400;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience .divideExperience .containerOur .desc .title h1 {
+  font-weight: 400;
+  color: #0A6692;
+  margin: 10px 0px;
+  font-size: 42px;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience .divideExperience .containerOur .desc .title span {
+  font-size: 14px;
+  color: #1d1d1d;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience .divideExperience .containerOur .desc .title button {
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #0A6692;
+  border: 1px solid #0A6692;
+  border-radius: 20px;
+  width: 50%;
+  margin: 20px 0px;
+  transition: 0.3s;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience .divideExperience .containerOur .desc .title button span {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience .divideExperience .containerOur .desc .title button:hover {
+  transform: translate(5%);
+  background-color: #FFFFFF;
+}
+.app .panel .panelLanding .home .ourExperience .containerOurExperience .divideExperience .containerOur .desc .title button:hover span {
+  color: #0A6692;
+}
+.app .panel .panelLanding .product .containerProduct .wallpaper {
+  height: 100vh;
+  background: url('https://lirp.cdn-website.com/b46a703c/dms3rep/multi/opt/106411628-1920w.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app .panel .panelLanding .product .containerProduct .wallpaper .containerWallpaper {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.app .panel .panelLanding .product .containerProduct .wallpaper .containerWallpaper .infoDesc .big h1 {
+  font-size: 64px;
+  font-weight: 100;
+}
+.app .panel .panelLanding .product .containerProduct .wallpaper .containerWallpaper .infoDesc .big h3 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+.app .panel .panelLanding .product .containerProduct .wallpaper .containerWallpaper .infoDesc .big span {
+  font-size: 24px;
+  font-weight: 100;
+}
+.app .panel .panelLanding .product .containerProduct .wallpaper .containerWallpaper .infoDesc .actionGo {
+  margin-top: 30px;
+}
+.app .panel .panelLanding .product .containerProduct .wallpaper .containerWallpaper .infoDesc .actionGo button {
+  width: 30%;
+  border-radius: 20px;
+  background-color: #0A6692;
+  padding: 15px 0px;
+  border: none;
+}
+.app .panel .panelLanding .product .containerProduct .wallpaper .containerWallpaper .infoDesc .actionGo button span {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 100;
+}
+.app .panel .panelLanding .product .containerProduct .two {
+  height: 100vh;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark .box {
+  width: 40%;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark .box img {
+  width: 100%;
+  object-fit: cover;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark .box .bigText h1 {
+  color: #1d1d1d;
+  font-size: 62px;
+  font-weight: 100;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark .box .bigText .btnWhite {
+  margin: 30px 0px;
+  width: 80%;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #0A6692;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark .box .bigText .btnWhite span {
+  color: #0A6692;
+  font-size: 18px;
+  font-weight: 100;
+  transition: 0.3s;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark .box .bigText .btnWhite:hover {
+  transform: scale(1.1);
+  background-color: #0A6692;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark .box .bigText .btnWhite:hover span {
+  color: #FFFFFF;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark .box .bigText .btnDark {
+  width: 80%;
+  margin: 30px 0px;
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  border: 1px solid #0A6692;
+  background-color: #0A6692;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark .box .bigText .btnDark span {
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark .box .bigText .btnDark:hover {
+  transform: translateX(5%);
+  background-color: #FFFFFF;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark .box .bigText .btnDark:hover span {
+  color: #0A6692;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper .containerDark.Reverse {
+  flex-direction: row-reverse;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper.Other {
+  background: url('https://cdeonline.com.py/wp-content/uploads/2021/12/fondo.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app .panel .panelLanding .product .containerProduct .two .darkWallpaper.Nothing {
+  background: #FFFFFF;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree {
+  width: 90%;
+  margin: auto;
+  padding: 100px 0px;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .titleBig {
+  text-align: center;
+  margin: 30px auto;
+  width: 60%;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .titleBig h1 {
+  font-weight: 400;
+  color: #0A6692;
+  font-size: 52px;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .reference {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .reference .box {
+  width: 25%;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .reference .box .containerBox {
+  width: 100%;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .reference .box .containerBox .img {
+  width: 100%;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .reference .box .containerBox .img img {
+  width: 100%;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .reference .box .containerBox .lateral .titleAndDesc {
+  padding: 50px 0px;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .reference .box .containerBox .lateral .titleAndDesc h1 {
+  font-weight: 400;
+  margin: 10px 0px;
+  font-size: 28px;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .reference .box .containerBox .lateral .titleAndDesc span {
+  font-size: 14px;
+  color: #4B4B4E;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .reference .box .containerBox .Left {
+  text-align: right;
+}
+.app .panel .panelLanding .product .containerProduct .three .containerThree .reference .Wallpaper {
+  width: 40%;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer {
+  width: 90%;
+  margin: auto;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer .bigTitle {
+  text-align: center;
+  width: 60%;
+  margin: 50px auto;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer .bigTitle h1 {
+  font-size: 52px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer .bigTitle span {
+  font-size: 14px;
+  color: #4B4B4E;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer .smallImages {
+  margin: 100px 0px;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer .smallImages .flexImages {
+  display: flex;
+  justify-content: space-around;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer .smallImages .flexImages .images {
+  width: 35%;
+  border-radius: 20px;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer .smallImages .flexImages .images .wallpapera {
+  width: 100%;
+  position: relative;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer .smallImages .flexImages .images .wallpapera img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer .smallImages .flexImages .images .smallDescription {
+  margin: 10px 0px;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer .smallImages .flexImages .images .smallDescription h1 {
+  font-weight: 100;
+  color: #1d1d1d;
+  font-size: 24px;
+}
+.app .panel .panelLanding .product .containerProduct .four .fourContainer .smallImages .flexImages .images .Left {
+  text-align: right;
+}
+.app .panel .panelLanding .buy .containerBuy {
+  margin-top: 100px;
+}
+.app .panel .panelLanding .buy .containerBuy .topAlert {
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #0A6692;
+}
+.app .panel .panelLanding .buy .containerBuy .topAlert h3 {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .wallpaper {
+  width: 30%;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .wallpaper img {
+  width: 100%;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy {
+  width: 50%;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .nameAndPrice h1 {
+  font-size: 52px;
+  font-weight: 400;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .nameAndPrice h3 {
+  font-size: 32px;
+  color: #0A6692;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .nameAndPrice h3 span {
+  font-size: 22px;
+  font-weight: 400;
+  color: #0A6692;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .nameAndPrice span {
+  font-size: 14px;
+  color: #4B4B4E;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions {
+  width: 70%;
+  margin: 20px 0px;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .howMany {
+  width: 40%;
+  border: 1px solid #ccc;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .howMany button {
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .howMany .action {
+  width: 40%;
+  transition: 0.3s;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .howMany .action .icon {
+  font-size: 14px;
+  color: #0A6692;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .howMany .action:hover {
+  background-color: #0A6692;
+  border: 1px solid #0A6692;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .howMany .action:hover .icon {
+  color: #FFFFFF;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .howMany .text {
+  width: 20%;
+  cursor: default;
+  border: none;
+  background-color: #FFFFFF;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .howMany .text span {
+  font-weight: bold;
+  font-size: 16px;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .buyButton {
+  width: 55%;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .buyButton button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #0A6692;
+  background-color: #0A6692;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .buyButton button span {
+  font-size: 14px;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .boxTopOptions .containerTopOptions .buyButton button:hover {
+  background-color: #1d1d1d;
+  border: 1px solid #1d1d1d;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .smallInfo button {
+  background-color: transparent;
+  border: none;
+  transition: 0.3s;
+  margin: 10px 0px;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .smallInfo button span {
+  font-size: 14px;
+  color: #0A6692;
+  transition: 0.3s;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .smallInfo button:hover span {
+  text-decoration: underline;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .smallInfo h3 {
+  font-weight: 400;
+  color: #4B4B4E;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .backToPage {
+  margin-top: 50px;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .backToPage button {
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #1d1d1d;
+  border-radius: 20px;
+  width: 50%;
+  border: none;
+}
+.app .panel .panelLanding .buy .containerBuy .divideBuy .boxBuy .boxBuyContainer .backToPage button span {
+  color: #FFFFFF;
+  font-weight: 100;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .smallNav {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .smallNav nav ul li {
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .smallNav nav ul li span {
+  font-size: 14px;
+  color: #4B4B4E;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .smallNav nav ul li.Active span {
+  color: #0A6692;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation {
+  width: 50%;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation .caracteristicas {
+  width: 100%;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation .caracteristicas .containerCaracteristicas .box {
+  width: 100%;
+  padding: 50px 0px;
+  border-bottom: 1px solid #ccc;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation .caracteristicas .containerCaracteristicas .box h3 {
+  font-weight: 400;
+  color: #1d1d1d;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation .caracteristicas .containerCaracteristicas .box span {
+  font-size: 14px;
+  color: #4B4B4E;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation .caracteristicas .containerCaracteristicas .box nav {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation .caracteristicas .containerCaracteristicas .box nav ul li {
+  margin: 10px 0px;
+  color: #ccc;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation .caracteristicas .containerCaracteristicas .box nav ul li span {
+  color: #1d1d1d;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation .opinion {
+  width: 100%;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation .opinion .containerOpinion .boxOpinion {
+  padding: 50px 0px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation .opinion .containerOpinion .boxOpinion .title h3 {
+  font-weight: 400;
+  color: #0A6692;
+  font-size: 16px;
+  margin: 10px 0px;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .containerInformation .opinion .containerOpinion .boxOpinion .title span {
+  font-size: 14px;
+  color: #4B4B4E;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .wallpaperImg {
+  width: 40%;
+}
+.app .panel .panelLanding .buy .containerBuy .fichaTecnica .containerFichaTecnica .informationType .wallpaperImg img {
+  width: 100%;
+}

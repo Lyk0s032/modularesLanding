@@ -1,0 +1,838 @@
+.app{
+    margin:0px;
+
+    .panel{
+        .panelLanding{
+            .home{
+                .firstHome{
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 50px;
+                    .img{
+                        width: 80%;
+                        margin:auto;
+                        img{
+                            width:100%;
+                        }
+                    }
+                    .textAndWallpaper{
+                        width:80%;
+                        margin:auto;
+                        .textDesc{
+                            text-align: center;
+                            h1{
+                                font-size: 82px;
+                                font-weight: 600;
+                                color: @textDark;
+                                margin:10px 0px;
+                            }
+                            h3{
+                                color: @bgDark;
+                                font-weight: 300;
+                                width:80%;
+                                margin:auto;
+                            }
+                            button{
+                                margin-top:20px;
+                                background-color: transparent;
+                                border: none;
+                                padding:10px;
+                                font-size: 14px;
+                                transition: .3s;
+                            }
+                            button:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+                .topProducts{
+                    width:100%;
+                    background-color: @bgWhite;
+                    padding:60px 0px;
+                    box-sizing: border-box;
+
+                    .topsContainer{
+                        width:80%;
+                        margin:auto;
+                        .title{
+                            padding:30px 0px;
+                            box-sizing: border-box;
+                            
+                            h1{
+                                font-size: 48px;
+                                color: @textDark;
+                            }
+                        }
+                        
+                        .divideContainerWhite{
+                            margin-top:40px;
+                            .divideContainer{
+                                display: flex;
+                                align-items: start;
+                                justify-content: space-between;
+
+                                .box{
+                                    width:49%;
+                                    background-color: @bgWhite;
+                                    padding:20px 20px;
+                                    box-sizing: border-box;
+                                    border-radius: 20px;
+                                    transition: .3s;
+                                    border:1px solid  @bgBackground;
+                                    .fastDesc{
+                                        text-align: center;
+                                        padding:50px 0px;
+                                        .new{
+                                            background-color: transparent;
+                                            border:none;
+                                            font-size: 12px;
+                                            color: @bgPrimary;
+                                            span{
+                                                color: @bgPrimary;
+                                            }
+                                        }
+                                        h1{
+                                            font-weight: 500;
+                                            margin:10px 0px;
+                                        }
+                                        span{
+                                            color: @bgDark;
+                                            font-size: 14px;
+                                        }
+                                        .moreInfo{
+                                            padding:10px; 
+                                            box-sizing: border-box;
+                                            border-radius: 20px;
+                                            width:50%;
+                                            border:none;
+                                            background-color: transparent;
+                                            display: flex;
+                                            margin:auto;
+                                            justify-content: space-around;
+                                            align-items: center;
+                                            margin-top:40px;
+                                        }
+                                    }
+                                    .img{
+                                        width:100%;
+                                        text-align: center;
+                                        img{
+                                            width: 50%;
+                                            margin:auto;
+                                        }
+                                    }
+                                }
+                                .box:hover{
+                                    transform: scale(1.05);
+                                    border:1px solid  #ccc;
+
+                                }
+                                .Two{
+                                    display: flex;
+                                    flex-direction:column-reverse;
+                                }
+                            }
+                        }
+                    }
+                }
+                .whiteProduct{
+                    background-color: @bgWhite;
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    width:90%;
+                    margin:auto;
+                    border-bottom: 1px solid #ccc;
+                    .whiteProductContainer{
+                        width:100%;
+                        .divideProduct{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            .wallpaperImg{
+                                width:40%;
+                                img{
+                                    width: 100%;
+                                    height:400px;
+                                    object-fit: contain;
+                                }
+                            }
+                            .descImg{
+                                width:50%;
+                                .containerDescImg{
+                                    padding:20px;
+                                    box-sizing: border-box;
+
+                                    h1{
+                                        font-size: 52px;
+                                        color: @bgPrimary;
+                                        font-weight: 400;
+                                        margin:10px 0px;
+                                    }
+                                    .descriptionText{
+                                        font-size: 16px;
+                                        color: @bgDark;
+                                    }
+                                
+                                    .options{
+                                        margin-top:30px;
+                                        h3{
+                                            font-size: 34px;
+                                            font-weight: 400;
+                                            font-style: italic;
+                                            margin-bottom: 30px;
+                                            span{
+                                                font-size: 18px;
+                                            }
+                                        }
+                                        button{
+                                            padding:10px;
+                                            box-sizing: border-box;
+                                            transition: .3s;
+                                            width:50%;
+                                            border-radius: 20px;
+
+                                        }
+                                        .info{
+                                            background-color: @bgPrimary;
+                                            border:1px solid @bgPrimary;
+                                            
+                                            span{
+                                                color: @bgWhite;
+                                            }
+                                        }
+                                        .info:hover{
+                                            transform: scale(1.1);
+                                            background-color: @bgWhite;
+                                            span{
+                                                color: @bgPrimary;
+                                            }
+                                        }
+                                        .comprar{
+                                            margin-top:10px;
+                                            border:none;
+                                            background-color: @bgWhite;
+
+                                            span{
+                                                color: @bgPrimary;
+                                            }
+                                        }
+                                        .comprar:hover{
+                                            transform: scale(1.1);
+                                            border:1px solid @bgPrimary;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .divideProduct.Reverse{
+                            flex-direction: row-reverse;
+                        }
+                    }
+                }
+
+                .ourExperience{
+                    width:100%;
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+
+                    .containerOurExperience{
+                        width:90%;
+                        margin:auto;
+                        .divideExperience{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+
+                            .wallpaper{
+                                width:45%;
+                                img{
+                                    width:100%;
+                                }
+                            }
+                            .containerOur{
+                                width:50%;
+
+                                .desc{
+                                    .title{
+                                        h3{
+                                            font-size: 16px;
+                                            color: @bgDark;
+                                            font-weight: 400;
+                                        }
+                                        h1{
+                                            font-weight: 400;
+                                            color: @bgPrimary;
+                                            margin:10px 0px;
+                                            font-size: 42px;
+                                        }
+                                        span{
+                                            font-size: 14px;
+                                            color: @textDark;
+                                        }
+
+                                        button{
+                                            padding:10px;
+                                            box-sizing: border-box;
+                                            background-color: @bgPrimary;
+                                            border:1px solid @bgPrimary;
+                                            border-radius: 20px;
+                                            width:50%;
+                                            margin:20px 0px;
+                                            transition: .3s;
+                                            span{
+                                                color: @bgWhite;
+                                                font-size: 14px;
+                                            }
+                                        }
+                                        button:hover{
+                                            transform: translate(5%);
+                                            background-color: @bgWhite;
+                                            span{
+                                                color: @bgPrimary;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .product{
+                .containerProduct{
+                    .wallpaper{
+                        height:100vh;
+                        background: url('https://lirp.cdn-website.com/b46a703c/dms3rep/multi/opt/106411628-1920w.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .containerWallpaper{
+                            width:90%;
+                            margin:auto;
+                            text-align: center;
+                            .infoDesc{
+                                .big{
+                                    h1{
+                                        font-size: 64px;
+                                        font-weight: 100;
+                                    }
+                                    h3{
+                                        font-size: 32px;
+                                        font-weight: 400;
+                                        margin:20px 0px;
+                                    }
+                                    span{
+                                        font-size: 24px;
+                                        font-weight: 100;
+                                    }
+                                }
+                                .actionGo{
+                                    margin-top:30px;
+                                    button{
+                                        width:30%;
+                                        border-radius: 20px;
+                                        background-color: @bgPrimary;
+                                        padding:15px 0px;
+                                        border:none;
+                                        span{
+                                            color: @bgWhite;
+                                            font-size: 18px;
+                                            font-weight: 100;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .two{
+                        height:100vh;
+                        .darkWallpaper{
+                            height: 100%;
+                            background-attachment: fixed;
+                            background-position: center;
+                            background-repeat: no-repeat; 
+                            background-size: cover;
+                            
+                            .containerDark{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width:80%;
+                                margin:auto;
+                                height:100%;
+                                .box{
+                                    width:40%;
+                                    img{
+                                        width:100%;
+                                        object-fit: cover;
+                                    }
+                                    .bigText{
+                                        h1{
+                                            color: @textDark;
+                                            font-size: 62px;
+                                            font-weight: 100;
+                                        }
+
+                                        .btnWhite{
+                                            margin:30px 0px;
+                                            width:80%;
+                                            border-radius: 20px;
+                                            background-color: @bgWhite;
+                                            border:1px solid @bgPrimary;
+                                            padding:10px 0px;
+                                            box-sizing: border-box;
+                                            transition: .3s;
+                                            span{
+                                                color: @bgPrimary;
+                                                font-size: 18px;
+                                                font-weight: 100;
+                                                transition: .3s;
+                                            }
+                                        }
+                                        .btnWhite:hover{
+                                            transform: scale(1.1);
+                                            background-color: @bgPrimary;
+                                            span{
+                                                color: @bgWhite;
+                                            }
+                                        }
+                                        .btnDark{
+                                            width:80%;
+                                            margin:30px 0px;
+                                            border-radius: 20px;
+                                            padding:10px;
+                                            box-sizing: border-box;
+                                            transition: .3s;
+                                            border:1px solid @bgPrimary;
+                                            background-color: @bgPrimary;
+
+                                            span{
+                                                font-size: 16px;
+                                                color: @bgWhite;
+                                                transition: .3s;
+                                            }
+                                        }
+                                        .btnDark:hover{
+                                            transform: translateX(5%);
+                                            background-color: @bgWhite;
+
+                                            span{
+                                                color: @bgPrimary;
+                                            }
+                                        }
+                                    }
+                                }
+
+                            }
+                            .containerDark.Reverse{
+                                flex-direction: row-reverse;
+                            }
+                        }
+                        .darkWallpaper.Other{
+                            background: url('https://cdeonline.com.py/wp-content/uploads/2021/12/fondo.png');
+                            background-attachment: fixed;
+                            background-position: center;
+                            background-repeat: no-repeat; 
+                            background-size: cover;
+                        }
+                        .darkWallpaper.Nothing{
+                            background:  @bgWhite;
+                        }
+                    }
+                    .three{
+                        .containerThree{
+                            width:90%;
+                            margin:auto;
+                            padding:100px 0px;
+                            .titleBig{
+                                text-align: center;
+                                margin:30px auto;
+                                width:60%;
+                                h1{
+                                    font-weight: 400;
+                                    color: @bgPrimary;
+                                    font-size: 52px;
+                                }
+                            }
+                            .reference{
+                                margin-top:100px;
+                                display: flex;
+                                justify-content: space-between;
+                                .box{
+                                    width:25%;
+                                    .containerBox{
+                                        width:100%;
+
+                                        .img{
+                                            width:100%;
+                                            img{
+                                                width:100%;
+                                            }
+                                        }
+                                        .lateral{
+                                            .titleAndDesc{
+                                                padding:50px 0px;
+
+                                                h1{
+                                                    font-weight: 400;
+                                                    margin:10px 0px;
+                                                    font-size: 28px;
+                                                }
+                                                span{
+                                                    font-size: 14px;
+                                                    color: @bgDark;
+                                                }
+                                            }
+                                        }
+                                        .Left{
+                                            text-align: right;
+                                        }
+                                    }
+                                }.Wallpaper{
+                                    width:40%;
+                                }
+                            }
+                        }
+                    }
+                    .four{
+                        .fourContainer{
+                            width:90%;
+                            margin:auto;
+
+                            .bigTitle{
+                                text-align: center;
+                                width:60%;
+                                margin:50px auto;
+
+                                h1{
+                                    font-size: 52px;
+                                    font-weight: 400;
+                                    margin:10px 0px;
+                                }
+                                span{
+                                    font-size: 14px;
+                                    color: @bgDark;
+                                }
+                            }
+
+                            .smallImages{
+                                margin:100px 0px;
+                                .flexImages{
+                                    display: flex;
+                                    justify-content: space-around;
+                                    .images{
+                                        width:35%;
+                                        border-radius: 20px;
+
+                                        .wallpapera{
+                                            width:100%;
+                                            position: relative;
+                                            img{
+                                                width: 100%;
+                                                height:350px;
+                                                object-fit: cover;
+                                            }
+                                        }
+                                        .smallDescription{
+                                            margin:10px 0px;
+
+                                            h1{
+                                                font-weight: 100;
+                                                color: @textDark;
+                                                font-size: 24px;
+                                            }
+                                        }.Left{
+                                            text-align: right;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .buy{
+                .containerBuy{
+                    margin-top:100px;
+                    .topAlert{
+                        text-align: center;
+                        padding:10px;
+                        box-sizing: border-box;
+                        background-color: @bgPrimary;
+
+                        h3{
+                            color: @bgWhite;
+                            font-weight: 400;
+                            font-size: 16px;
+                        }
+                    }
+
+                    .divideBuy{
+                        display: flex;
+                        justify-content: space-around;
+                        padding:50px 0px;
+                        .wallpaper{
+                            width:30%;
+                            img{
+                                width:100%;
+                            }
+                        }
+                        .boxBuy{
+                            width:50%;
+
+                            .boxBuyContainer{
+                                .nameAndPrice{
+                                    h1{
+                                        font-size: 52px;
+                                        font-weight: 400;
+                                    }
+                                    h3{
+                                        font-size: 32px;
+                                        color: @bgPrimary;
+                                        font-weight: 500;
+                                        margin-bottom: 20px;
+                                        span{
+                                            font-size: 22px;
+                                            font-weight: 400;
+                                            color: @bgPrimary;
+                                        }
+                                    }
+                                    span{
+                                        font-size: 14px;
+                                        color: @bgDark;
+                                    }
+                                }
+                                .boxTopOptions{
+                                    width:70%;
+                                    margin:20px 0px;
+                                    .containerTopOptions{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+
+                                        .howMany{
+                                            width:40%;
+                                            border:1px solid #ccc;
+
+                                            button{
+                                                padding:10px;
+                                                box-sizing: border-box;
+                                                background-color: @bgWhite;
+                                                border:1px solid @bgWhite;
+                                            }
+                                            .action{
+                                                width:40%;
+                                                transition: .3s;
+                                                .icon{
+                                                    font-size: 14px;
+                                                    color: @bgPrimary;
+                                                }
+                                            }
+                                            .action:hover{
+                                                background-color: @bgPrimary;
+                                                border:1px solid @bgPrimary;
+
+                                                .icon{
+                                                    color: @bgWhite;
+                                                }
+                                            }
+                                            .text{
+                                                width:20%;
+                                                cursor: default;
+                                                border: none;
+                                                background-color: @bgWhite;
+
+                                                span{
+                                                    font-weight: bold;
+                                                    font-size: 16px;
+                                                }
+
+                                            }
+                                        }
+
+                                        .buyButton{
+                                            width:55%;
+                                            button{
+                                                width:100%;
+                                                padding:10px;
+                                                box-sizing: border-box;
+                                                border:1px solid @bgPrimary;
+                                                background-color: @bgPrimary;
+                                                border-radius: 5px;
+                                                transition: .3s;
+                                                span{
+                                                    font-size: 14px;
+                                                    color: @bgWhite;
+                                                    transition: .3s;
+                                                }
+                                            }
+                                            button:hover{
+                                                background-color: @textDark;
+                                                border:1px solid @textDark;
+                                            }
+                                        }
+                                    }
+                                    
+                                }
+                                .smallInfo{
+                                    button{
+                                        background-color: transparent;
+                                        border:none;
+                                        transition: .3s;
+                                        margin:10px 0px;
+                                        span{
+                                            font-size: 14px;
+                                            color: @bgPrimary;
+                                            transition: .3s;
+                                        }
+                                    }
+                                    button:hover{
+                                        span{
+                                            text-decoration: underline;
+                                        }
+                                    }
+
+                                    h3{
+                                        font-weight: 400;
+                                        color: @bgDark;
+                                    }
+                                }
+
+                                .backToPage{
+                                    margin-top:50px;
+                                    button{
+                                        padding:10px;
+                                        box-sizing: border-box;
+                                        background-color: @textDark;
+                                        border-radius: 20px;
+                                        width:50%;
+                                        border:none;
+
+                                        span{
+                                            color: @bgWhite;
+                                            font-weight: 100;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                
+                    .fichaTecnica{
+                        .containerFichaTecnica{
+                            width:90%;
+                            margin:auto;
+                            padding:10px 0px;
+                            box-sizing: border-box;
+
+                            .smallNav{
+                                width:100%;
+                                border-bottom: 1px solid #ccc;
+
+                                nav{
+                                    ul{
+                                        li{
+                                            display: inline-block;
+                                            padding:10px;
+                                            box-sizing: border-box;
+                                            cursor: pointer;
+
+                                            span{
+                                                font-size: 14px;
+                                                color: @bgDark;
+                                            }
+                                        }
+                                        li.Active{
+                                            span{
+                                                color: @bgPrimary;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .informationType{
+                                width:100%;
+                                margin-top:30px;
+                                display: flex;
+                                justify-content: space-between;
+                                .containerInformation{
+                                    width:50%;
+                                    .caracteristicas{
+                                        width:100%;
+                                        
+                                        .containerCaracteristicas{
+                                            .box{
+                                                width:100%;
+                                                padding:50px 0px;
+                                                border-bottom: 1px solid #ccc;
+                                            
+                                                h3{
+                                                    font-weight: 400;
+                                                    color: @textDark
+                                                }
+                                                span{
+                                                    font-size: 14px;
+                                                    color: @bgDark;
+                                                }
+                                                
+                                                nav{
+                                                    padding:10px;
+                                                    box-sizing: border-box;
+                                                    ul{
+                                                        li{
+                                                            margin:10px 0px;
+                                                            color: #ccc;
+    
+                                                            span{
+                                                                color: @textDark
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+    
+                                    .opinion{
+                                        width:100%;
+                                        .containerOpinion{
+                                            .boxOpinion{
+                                                padding:50px 0px;
+                                                box-sizing: border-box;
+                                                border-bottom: 1px solid #ccc;
+                                                .title{
+                                                    h3{
+                                                        font-weight: 400;
+                                                        color: @bgPrimary;
+                                                        font-size: 16px;
+                                                        margin:10px 0px;
+                                                    }
+                                                    span{
+                                                        font-size: 14px;
+                                                        color: @bgDark;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .wallpaperImg{
+                                    width:40%;
+                                    img{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
